@@ -371,6 +371,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d47267c05a04b5d4bb360bdefd2c4f7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 0}
+  material: {fileID: 2100000, guid: 64b03e55777618d439626bbaf53d6aed, type: 2}
   passes: 5
   passesDelayMs: 200

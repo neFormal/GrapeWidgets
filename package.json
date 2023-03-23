@@ -1,13 +1,13 @@
 {
-    "name": "com.github.neformal.grapewidgets",
+    "name": "com.github.neformal.grape_widgets",
     "version": "1.0.0",
     "displayName": "Grape Widgets",
     "description": "Simple UI manager",
     "unity": "2019.3",
     "unityRelease": "0b5",
-    "documentationUrl": "https://github.com/neFormal/GrapeWidgets",
-    "changelogUrl": "https://github.com/neFormal/GrapeWidgets",
-    "licensesUrl": "https://github.com/neFormal/GrapeWidgets",
+    "documentationUrl": "https://github.com/neFormal/grape_widgets",
+    "changelogUrl": "https://github.com/neFormal/grape_widgets",
+    "licensesUrl": "https://github.com/neFormal/grape_widgets",
     "dependencies": {
         "com.unity.textmeshpro": "3.0.6"
     },
