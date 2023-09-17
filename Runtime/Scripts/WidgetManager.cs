@@ -43,13 +43,13 @@ namespace GrapeWidgets
             ReorderWidgets();
         }
 
-        public async Task Show<WidgetType>()
+        public async Task<WidgetType> Show<WidgetType>()
             where WidgetType : BaseWidget
         {
-            await Show<WidgetType>(null);
+            return await Show<WidgetType>(null);
         }
 
-        public async Task Show<WidgetType>(object initData)
+        public async Task<WidgetType> Show<WidgetType>(object initData)
             where WidgetType : BaseWidget
         {
             BaseWidget widget;
@@ -70,7 +70,7 @@ namespace GrapeWidgets
             widget.gameObject.SetActive(true);
             await widget.Show();
 
-            await Task.CompletedTask;
+            return widget as WidgetType;
         }
 
         private void AddToOpen(BaseWidget widget)
